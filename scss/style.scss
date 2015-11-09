@@ -1,0 +1,30 @@
+.nav-bar{
+	margin-top: 20px;
+	.button{
+		background:transparent;
+		color:$primary-color;
+		&:hover{
+			background:$primary-color;
+			color:$white;
+		}
+	}
+}
+
+.intro{
+	padding:50px 0;
+	background-image: url('../img/banner.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size:cover;
+	background-color:$primary-color;
+	background-blend-mode: multiply;
+	h3, h1{
+
+		color:$aluminum;
+		.inverseColor{
+			font-family: 'Oswald', sans-serif;
+			color:$white;
+		}
+	}
+}

@@ -1,5 +1,7 @@
 @import "settings";
 @import "foundation";
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
 
 // Or selectively include components
 // @import
@@ -38,3 +40,5 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+@import "style";
