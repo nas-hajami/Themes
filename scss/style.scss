@@ -1,3 +1,5 @@
+
+
 .nav-bar{
 	margin-top: 20px;
 	.button{
@@ -9,22 +11,62 @@
 		}
 	}
 }
+.logo{
+	img{
+		margin-top: 17px;
+	}
+}
 
 .intro{
-	padding:50px 0;
+	padding:100px 0;
+	margin-bottom:100px;
 	background-image: url('../img/banner.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-position: center bottom;
+	background-position: bottom;
 	background-size:cover;
 	background-color:$primary-color;
 	background-blend-mode: multiply;
 	h3, h1{
-
-		color:$aluminum;
+		color:$base;
 		.inverseColor{
 			font-family: 'Oswald', sans-serif;
 			color:$white;
 		}
 	}
+}
+.inverse{
+	color:$white;
+}
+.icon{
+	font-size: $h1-font-size * 1.3;
+	color:$primary-color;
+	&.inverse{
+		@extend .inverse;
+	}
+}
+
+.fi-social-twitter{
+	font-size:$h1-font-size;
+	color:$base;
+	&:hover{
+		color:#4099FF; //twitter blue
+	}
+}
+
+
+.my-work{
+	@extend .inverse;
+	margin-top:20px;
+	padding-top: 50px;
+	padding-bottom:50px;
+	background:$primary-color;
+	h4{
+		@extend .inverse;
+	}
+}
+
+.contact{
+	padding-top: 50px;
+	padding-bottom:50px;
 }
